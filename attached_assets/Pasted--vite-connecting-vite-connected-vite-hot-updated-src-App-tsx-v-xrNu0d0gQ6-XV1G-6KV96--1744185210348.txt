@@ -1,0 +1,46 @@
+[vite] connecting...
+[vite] connected.
+[vite] hot updated: /src/App.tsx?v=xrNu0d0gQ6-XV1G-6KV96
+[vite] hot updated: /src/index.css?v=xrNu0d0gQ6-XV1G-6KV96
+Objects are not valid as a React child (found: [object Promise]). If you meant to render a collection of children, use an array instead.
+Objects are not valid as a React child (found: [object Promise]). If you meant to render a collection of children, use an array instead.
+The above error occurred in the <component> component:
+
+    at component
+    at Route (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1dc1e390:323:16)
+    at Switch (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1dc1e390:379:17)
+    at main
+    at div
+    at Router
+    at AuthProvider (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/src/lib/auth-context.tsx:34:32)
+    at QueryClientProvider (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=1dc1e390:2805:3)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+Objects are not valid as a React child (found: [object Promise]). If you meant to render a collection of children, use an array instead.
+The requested module '/@fs/home/runner/workspace/node_modules/.vite/deps/lucide-react.js?v=1dc1e390' does not provide an export named 'Water'
+The requested module '/@fs/home/runner/workspace/node_modules/.vite/deps/lucide-react.js?v=1dc1e390' does not provide an export named 'Water'
+The requested module '/@fs/home/runner/workspace/node_modules/.vite/deps/lucide-react.js?v=1dc1e390' does not provide an export named 'Water'
+The requested module '/@fs/home/runner/workspace/node_modules/.vite/deps/lucide-react.js?v=1dc1e390' does not provide an export named 'Water'
+The requested module '/@fs/home/runner/workspace/node_modules/.vite/deps/lucide-react.js?v=1dc1e390' does not provide an export named 'Water'
+The requested module '/@fs/home/runner/workspace/node_modules/.vite/deps/lucide-react.js?v=1dc1e390' does not provide an export named 'Water'
+[vite] hot updated: /src/index.css?v=xrNu0d0gQ6-XV1G-6KV96
+[vite] hot updated: /src/App.tsx?v=xrNu0d0gQ6-XV1G-6KV96
+[vite] hot updated: /src/index.css?v=xrNu0d0gQ6-XV1G-6KV96
+Objects are not valid as a React child (found: [object Promise]). If you meant to render a collection of children, use an array instead.
+Objects are not valid as a React child (found: [object Promise]). If you meant to render a collection of children, use an array instead.
+The above error occurred in the <component> component:
+
+    at component
+    at Route (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1dc1e390:323:16)
+    at Switch (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1dc1e390:379:17)
+    at main
+    at div
+    at Router
+    at AuthProvider (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/src/lib/auth-context.tsx:34:32)
+    at QueryClientProvider (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=1dc1e390:2805:3)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.

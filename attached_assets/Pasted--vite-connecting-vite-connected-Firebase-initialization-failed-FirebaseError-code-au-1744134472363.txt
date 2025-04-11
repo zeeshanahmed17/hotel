@@ -1,0 +1,48 @@
+[vite] connecting...
+[vite] connected.
+Firebase initialization failed: 
+_FirebaseError {code: "auth/invalid-api-key", customData: {…}, name: "FirebaseError"}
+[vite] hot updated: /src/components/booking-form.tsx
+[vite] hot updated: /src/index.css?v=JcaCpkMuEyj47Iu1YHGov
+isPending is not defined
+isPending is not defined
+The above error occurred in the <BookingForm> component:
+
+    at BookingForm (https://d4b19417-19ec-4bb0-82f8-599688cdccc6-00-114bodpjybqjk.riker.replit.dev/src/components/booking-form.tsx?t=1744134301789:52:24)
+    at div
+    at div
+    at section
+    at Rooms (https://d4b19417-19ec-4bb0-82f8-599688cdccc6-00-114bodpjybqjk.riker.replit.dev/src/pages/rooms.tsx:25:45)
+    at Route (https://d4b19417-19ec-4bb0-82f8-599688cdccc6-00-114bodpjybqjk.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1dc1e390:323:16)
+    at Switch (https://d4b19417-19ec-4bb0-82f8-599688cdccc6-00-114bodpjybqjk.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1dc1e390:379:17)
+    at main
+    at div
+    at Router
+    at AuthProvider (https://d4b19417-19ec-4bb0-82f8-599688cdccc6-00-114bodpjybqjk.riker.replit.dev/src/lib/auth-context.tsx:34:32)
+    at QueryClientProvider (https://d4b19417-19ec-4bb0-82f8-599688cdccc6-00-114bodpjybqjk.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=1dc1e390:2805:3)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+at BookingForm (https://d4b19417-19ec-4bb0-82f8-599688cdccc6-00-114bodpjybqjk.riker.replit.dev/src/components/booking-form.tsx?t=1744134301789:52:24)
+at div
+at div
+at section
+at Rooms (https://d4b19417-19ec-4bb0-82f8-599688cdccc6-00-114bodpjybqjk.riker.replit.dev/src/pages/rooms.tsx:25:45)
+at Route (https://d4b19417-19ec-4bb0-82f8-599688cdccc6-00-114bodpjybqjk.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1dc1e390:323:16)
+at Switch (https://d4b19417-19ec-4bb0-82f8-599688cdccc6-00-114bodpjybqjk.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1dc1e390:379:17)
+at main
+at div
+at Router
+at AuthProvider (https://d4b19417-19ec-4bb0-82f8-599688cdccc6-00-114bodpjybqjk.riker.replit.dev/src/lib/auth-context.tsx:34:32)
+at QueryClientProvider (https://d4b19417-19ec-4bb0-82f8-599688cdccc6-00-114bodpjybqjk.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=1dc1e390:2805:3)
+at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+at t.value (https://d4b19417-19ec-4bb0-82f8-599688cdccc6-00-114bodpjybqjk.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://d4b19417-19ec-4bb0-82f8-599688cdccc6-00-114bodpjybqjk.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://d4b19417-19ec-4bb0-82f8-599688cdccc6-00-114bodpjybqjk.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://d4b19417-19ec-4bb0-82f8-599688cdccc6-00-114bodpjybqjk.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+isPending is not defined

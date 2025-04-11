@@ -1,0 +1,49 @@
+[vite] connecting...
+[vite] connected.
+Cannot read properties of undefined (reading 'toFixed')
+at RoomDetail (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/src/pages/room-detail.tsx:303:28)
+at renderWithHooks (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:11548:26)
+at updateFunctionComponent (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:14582:28)
+at beginWork (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:15924:22)
+at HTMLUnknownElement.callCallback2 (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:3674:22)
+at Object.invokeGuardedCallbackDev (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:3699:24)
+at invokeGuardedCallback (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:3733:39)
+at beginWork$1 (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:19765:15)
+at performUnitOfWork (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:19198:20)
+at workLoopSync (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:19137:13)
+Cannot read properties of undefined (reading 'toFixed')
+at RoomDetail (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/src/pages/room-detail.tsx:303:28)
+at renderWithHooks (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:11548:26)
+at updateFunctionComponent (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:14582:28)
+at beginWork (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:15924:22)
+at HTMLUnknownElement.callCallback2 (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:3674:22)
+at Object.invokeGuardedCallbackDev (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:3699:24)
+at invokeGuardedCallback (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:3733:39)
+at beginWork$1 (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:19765:15)
+at performUnitOfWork (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:19198:20)
+at workLoopSync (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:19137:13)
+The above error occurred in the <RoomDetail> component:
+
+    at RoomDetail (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/src/pages/room-detail.tsx:46:18)
+    at Route (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1dc1e390:323:16)
+    at Switch (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1dc1e390:379:17)
+    at main
+    at div
+    at Router
+    at AuthProvider (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/src/lib/auth-context.tsx:34:32)
+    at QueryClientProvider (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=1dc1e390:2805:3)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+Cannot read properties of undefined (reading 'toFixed')
+at RoomDetail (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/src/pages/room-detail.tsx:303:28)
+at renderWithHooks (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:11548:26)
+at updateFunctionComponent (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:14582:28)
+at beginWork (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:15924:22)
+at beginWork$1 (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:19753:22)
+at performUnitOfWork (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:19198:20)
+at workLoopSync (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:19137:13)
+at renderRootSync (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:19116:15)
+at recoverFromConcurrentError (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:18736:28)
+at performSyncWorkOnRoot (https://6f5a26c8-afed-4bb0-a519-6efeeb74a112-00-3jcgxiw7kzqh7.sisko.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=1dc1e390:18879:28)

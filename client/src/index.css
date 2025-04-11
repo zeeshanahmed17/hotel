@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+/* Form micro-interactions */
+@keyframes pulseSuccess {
+  0% { box-shadow: 0 0 0 0 rgba(74, 222, 128, 0.4); }
+  70% { box-shadow: 0 0 0 8px rgba(74, 222, 128, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(74, 222, 128, 0); }
+}
+
+@keyframes pulseError {
+  0% { box-shadow: 0 0 0 0 rgba(248, 113, 113, 0.4); }
+  70% { box-shadow: 0 0 0 8px rgba(248, 113, 113, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(248, 113, 113, 0); }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-4px); }
+  40% { transform: translateX(4px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(4px); }
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.form-error-shake {
+  animation: shake 0.5s ease-in-out;
+}
+
+.form-success-pulse {
+  animation: pulseSuccess 1.5s;
+}
+
+.form-error-pulse {
+  animation: pulseError 1.5s;
+}
+
+.form-slide-down {
+  animation: slideDown 0.3s ease-out;
+}
+
+.form-slide-up {
+  animation: slideUp 0.3s ease-out;
+}
+
+.form-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Hover effects */
+.form-input-hover-effect:hover {
+  @apply transform scale-[1.02] transition-all duration-200;
+}
+
+.button-hover-glow {
+  @apply transition-all duration-300;
+}
+
+.button-hover-glow:hover {
+  @apply shadow-md transform scale-[1.02] brightness-105;
+}
+
+.button-hover-glow:active {
+  @apply transform scale-[0.98] brightness-95;
+}
+
+/* Focus animations */
+.form-focus-highlight:focus-within {
+  @apply ring-2 ring-primary/50 ring-offset-1 transition-all duration-200;
+}
